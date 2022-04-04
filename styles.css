@@ -1,0 +1,143 @@
+.body {
+    background: whitesmoke;
+}
+
+.container {
+    margin: 15%;
+    height: 50%;
+    width: 70%;
+    position: absolute;
+    background: rgba(255, 230, 230, 0.87);
+    padding: 2%;
+    border: 2px solid #000000;
+    box-shadow: rgb(0, 0, 0);
+}
+
+.container2 {
+    margin: 9%;
+    margin-left: 30%;
+    height: 4%;
+    width: 40%;
+    position: absolute;
+    background: rgb(194, 194, 194);
+    border: 2px solid #000000;
+    box-shadow: rgb(0, 0, 0);
+    padding-left: 1%;
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.quizTitle {
+    vertical-align: top;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'MuseoModerno', cursive;
+    padding-bottom: 3%;
+}
+
+.question {
+    padding: 1%;
+    font-size: 24px;
+    background: rgb(255, 196, 196);
+    border: 2px solid black;
+    color: tomato;
+    margin: 10px, 0, 10px, 0;
+}
+
+.option {
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+    background: rgba(255, 230, 230, 0.87);
+    padding-left: 1%;
+}
+
+.option:hover {
+    background: rgb(255, 196, 196);
+    color: black;
+}
+
+.next_button {
+    font-family: 'MuseoModerno', cursive;
+    float: right;
+    vertical-align: bottom;
+    border: 1px solid black;
+    margin-top: 1%;
+    font-size: 14px;
+}
+
+.next_button:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.prev_button {
+    font-family: 'MuseoModerno', cursive;
+    float: left;
+    vertical-align: bottom;
+    border: 1px solid black;
+    margin-top: 1%;
+    font-size: 14px;
+}
+
+.prev_button:hover {
+    background-color: cornflowerblue;
+    color: white
+}
+
+#timer {
+    font-family: 'MuseoModerno', cursive;
+    color: red;
+}
+
+#startBtn {
+    font-family: 'MuseoModerno', cursive;
+    border: 2px solid black;
+    margin: 30%;
+    height: 15%;
+    width: 40%;
+    font-size: 45px;
+    position: absolute;
+}
+
+#startBtn:hover {
+    background-color: cornflowerblue;
+    color: white
+}
+
+.container_result {
+    margin: 30%;
+    height: 15%;
+    width: 40%;
+    font-size: 45px;
+    position: absolute;
+    background: rgba(255, 230, 230, 0.87);
+    padding: 1%;
+    padding-bottom: 1%;
+    border: 2px solid #000000;
+    box-shadow: rgb(158, 158, 158);
+    color: tomato;
+    text-align: center;
+    vertical-align: center;
+}
+
+#message-box {
+    font-family: 'MuseoModerno', cursive;
+    text-align: left;
+    margin: 20%;
+    margin-left: 35%;
+    height: 15%;
+    width: 40%;
+    font-size: 25px;
+    position: absolute;
+}
+
+#enterInit {
+    border: 2px solid black
+}
+
+#enterInit:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
